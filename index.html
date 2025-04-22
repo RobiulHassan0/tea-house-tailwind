@@ -5,12 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tea House</title>
     <!-- Google Font CDN -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
     <!-- Font Awesome CDN -->
     <script
       src="https://kit.fontawesome.com/abe1885868.js"
@@ -29,6 +26,11 @@
         },
       };
     </script>
+     <style>
+      * {
+        font-family: 'Manrope', sans-serif;
+      }
+    </style>
   </head>
   <body>
     <!-- Main Content -->
@@ -130,6 +132,53 @@
           </div>
         </div>
       </section>
+      <!-- Great Tea Section -->
+      <section class="grid grid-cols-1 lg:grid-cols-2 py-20">
+        <!-- Grid BG Section -->
+        <div class="grid grid-cols-2 grid-rows-3 gap-4 lg:w-5/6">
+          <!-- First Grid -->
+          <div class="bg-gradient-to-r from-red-300 to-red-100 rounded-xl"></div>
+          <!-- Second Image -->
+          <div class="bg-[rgba(230,166,35,0.1)] rounded-xl row-span-2">
+            <img class="my-5 mx-auto" src="images/fresh-1.png" alt="" />
+          </div>
+          <!-- Third Image -->
+          <div class="bg-[rgba(87,118,57,0.1)] rounded-xl row-span-2">
+            <img class="my-5 mx-auto" src="images/fresh-2.png" alt="" />
+          </div>
+          <!-- Last Grid -->
+          <div
+            class="rounded-xl bg-gradient-to-r from-[#d9d9d9] to-transparent"
+          ></div>
+        </div>
+        <!-- Right Side Text Section -->
+        <div class="pr-10">
+          <h2 class="text-[45px] font-bold pb-5 text-[#1C1C1C] leading-[60px]">
+            Great Tea, Freshly Presented
+          </h2>
+          <p class="text-[#777777] pb-7">
+            The meaning of gong cha is chanese is to provide the best tea to emperor
+            from all possessions . It represents the highest quality and self
+            expectation. Establishing in 2006, Gong cha had been deeply appreciated by
+            its custoers because of good words of mouth and unique customized service
+            orginated from Taiwan.
+          </p>
+
+          <h4 class="text-[20px] font-bold pb-[10px]">Unique Taste</h4>
+          <p class="text-[#777777] pb-5">
+            A Unique and different style from other teapots gives <br />a luxurious
+            and minimalist impression
+          </p>
+
+          <h4 class="text-[20px] font-bold pb-[10px]">Premium Quality</h4>
+          <p class="text-[#777777]">
+            Premium Quality that makes tea more elegant and more <br />
+            durable when you use it.
+          </p>
+        </div>
+      </section>
+
+
     </main>
   </body>
 </html>
